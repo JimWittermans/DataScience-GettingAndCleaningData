@@ -16,32 +16,32 @@ The R script that can be found in this folder executes a few steps to ultimately
 
 # File variables
 
-* train_folder		Location of the folder with train files.
-* x_train_file		The X train file name (and extension)
-* y_train_file		The Y train file name (and extension)
-* subject_train_file	The Subject train file name (and extension)
+* train_folder		(Location of the folder with train files.)
+* x_train_file		(The X train file name (and extension))
+* y_train_file		(The Y train file name (and extension))
+* subject_train_file	(The Subject train file name (and extension))
 
-* test_folder		Location of the folder with test files.
-* x_test_file		The X test file name (and extension)
-* y_test_file		The Y test file name (and extension)
-* subject_test_file	The Subject test file name (and extension)
+* test_folder		(Location of the folder with test files.)
+* x_test_file		(The X test file name (and extension))
+* y_test_file		(The Y test file name (and extension))
+* subject_test_file	(The Subject test file name (and extension))
 
-* features_file		The name of the features file (and extension) - Note, this one has to be in the working directory
-* activity_labels_file  The name of the activity labels file (and extension) - Note, this one has to be in the working directory
+* features_file		(The name of the features file (and extension) - Note, this one has to be in the working directory)
+* activity_labels_file  (The name of the activity labels file (and extension) - Note, this one has to be in the working directory)
 
 # Table variables:
-* x_train_table         Table generated based on file x_train_file (and folder)
-* y_train_table         Table generated based on file y_train_file (and folder)
-* subject_train_table   Table generated based on file subject_train_file (and folder)
+* x_train_table         (Table generated based on file x_train_file (and folder))
+* y_train_table         (Table generated based on file y_train_file (and folder))
+* subject_train_table   (Table generated based on file subject_train_file (and folder))
 
-* x_test_table          Table generated based on file x_test_file (and folder)
-* y_test_table          Table generated based on file y_test_file (and folder)
-* subject_test_table    Table generated based on file subject_test_file (and folder)
+* x_test_table          (Table generated based on file x_test_file (and folder))
+* y_test_table          (Table generated based on file y_test_file (and folder))
+* subject_test_table    (Table generated based on file subject_test_file (and folder))
 
 # Other variables:
-* x_combined		Combining train and test from x sets.
-* y_combined		Combining train and test from y sets.
-* subject combined	Combining train and test from subject sets.
-* features_filtered     Filtering the unneeded columns from the features file
-* data_combined		Combining all data together (Final step: x_combined, y_combined and subject_combined)
-* independent_data_set	Required for the tidy data set output.	
+* x_combined		(Combining train and test from x sets.)
+* y_combined		(Combining train and test from y sets.)
+* subject combined	(Combining train and test from subject sets.)
+* features_filtered     (Filtering the unneeded columns from the features file)
+* data_combined		(Combining all data together (Final step: x_combined, y_combined and subject_combined))
+* independent_data_set	(Required for the tidy data set output.)	
